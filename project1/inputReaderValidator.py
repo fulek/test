@@ -7,7 +7,7 @@ class InputReaderValidator:
         else:
             return -1
 
-    def newPlane(self):#check whether monitor new plane
+    def newPlane(self, ):#check whether monitor new plane
         loop = True
         while loop:
             loop= self.checkNewPlane(raw_input("New plane Y/N?"))

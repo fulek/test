@@ -1,11 +1,14 @@
 #Here is the main program which manages all the rest of the filght parameters recorder
-import recordDaemon
 import inputReaderValidator
+import runDaemon
 
 
 
-inpt = inputReaderValidator.InputReaderValidator()
+'''inpt = inputReaderValidator.InputReaderValidator()
 while inpt.newPlane():
     delay = inpt.delayTime()
     plane = recordDaemon.RecordDaemon(delay)
-    plane.newPlane()
+    plane.newPlane()'''
+
+aaa = runDaemon.RunDaemon(1)
+aaa.run()
